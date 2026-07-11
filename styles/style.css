@@ -233,3 +233,168 @@ nav{
     margin-top: 18px;
     margin-bottom: 48px;
 }
+/* ai section start */
+/* ===========================
+   AI Schedule Section
+=========================== */
+
+.schedule-section {
+    max-width: 1200px;
+    margin: 120px auto;
+    padding: 70px 60px;
+    background: #f8faff;
+    border-radius: 24px;
+}
+
+.schedule-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.schedule-heading h5 {
+    color: #2962ff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.schedule-heading h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.schedule-heading p {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6b7280;
+}
+
+/* ===========================
+   Day Buttons
+=========================== */
+
+.schedule-days {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.day-btn {
+    background: #ffffff;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0,0,0,.08);
+    transition: all .3s ease;
+}
+
+.day-btn:hover,
+.day-btn.active {
+    background: #2962ff;
+    color: white;
+}
+
+/* ===========================
+   Schedule Cards
+=========================== */
+
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.schedule-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+    transition: all .3s ease;
+}
+
+.schedule-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0,0,0,.12);
+}
+
+/* ===========================
+   Time
+=========================== */
+
+.schedule-time {
+    width: 220px;
+    flex-shrink: 0;
+}
+
+.schedule-time h3 {
+    color: #2962ff;
+    font-size: 20px;
+}
+
+/* ===========================
+   Icon
+=========================== */
+
+.schedule-icon {
+    width: 70px;
+    height: 70px;
+    background: #eef4ff;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 30px;
+}
+
+.schedule-icon i {
+    font-size: 30px;
+    color: #2962ff;
+}
+
+/* ===========================
+   Details
+=========================== */
+
+.schedule-details {
+    flex: 1;
+}
+
+.schedule-details h2 {
+    font-size: 28px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.schedule-details h4 {
+    font-size: 20px;
+    color: #2962ff;
+    margin-bottom: 10px;
+}
+
+.schedule-details p {
+    color: #6b7280;
+    font-size: 17px;
+    line-height: 28px;
+}
+
+/* ===========================
+   Button
+=========================== */
+
+.schedule-btn {
+    text-align: center;
+    margin-top: 60px;
+}
