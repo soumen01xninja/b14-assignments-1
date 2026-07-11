@@ -109,7 +109,7 @@ nav{
 }
 .speker-card{
     border-radius: 16px;
-    border: 0.5px solid #cfcdcd;
+    border: 0.5px solid #E5E7EB;
     overflow: hidden;
 }
 .speker-info{
@@ -139,4 +139,97 @@ nav{
     text-align: center;
     margin-top: 80px;
     margin-bottom: 58px;
+}
+/* this is the starting point of secure uour spot section */
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
+.card-section{
+     max-width: 1200px;
+    margin: auto;
+}
+.card-section .card-text{
+    justify-content: center;
+    text-align: center;
+}
+.card-container .first-card .card-details p{
+    font-size: 13px;
+    font-weight: 700;
+    color: #888888;
+}
+.card-container .first-card .card-details h1{
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-container .first-card .card-details h6{
+    font-size: 13px;
+    font-weight: normal;
+    color:#888888 ;
+    border-bottom: 0.5px solid #E5E7EB;
+    padding-bottom: 15px;
+}
+.first-card{
+    border-radius: 14px;
+       border: 0.5px solid #E5E7EB;
+       padding: 36px;
+}
+.card-container .first-card .card-details ul li {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    margin-bottom: 8px;
+    
+}
+ .card-container .first-card .card-details ul li::marker{
+    color: #2563EB;
+}
+.card-container .first-card .card-details ul {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.button{
+   
+    text-align: center;
+}
+.pro-card{
+    background-color: #0D1B2A;
+    
+}
+.card-container .first-card .card-details h1.pro-text{
+    color: whitesmoke;
+}
+.card-container .first-card .card-details ul li.pro-text{
+    color: white;
+}
+.card-container .first-card .card-details p.pro-pra{
+    color: #1D4ED8;
+}
+.Standard{
+    background-color: white;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+.black{
+        background-color: white;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+.card-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-top: 172px;
+}
+.card-text p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: #575757;
+    margin-top: 18px;
+    margin-bottom: 48px;
 }
